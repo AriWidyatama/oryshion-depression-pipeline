@@ -1,6 +1,6 @@
 FROM tensorflow/serving:2.10.0
 
-COPY ./output/serving_model /models/depression-model
+COPY ./output/serving_model /models
 
 ENV MODEL_NAME=depression-model
 ENV PORT=8501
