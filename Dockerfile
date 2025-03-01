@@ -1,8 +1,9 @@
 FROM tensorflow/serving:2.10.0
 
-COPY ./output/serving_model /models
+COPY ./output/serving_model /models/depression-model
 
 ENV MODEL_NAME=depression-model
+ENV MODEL_BASE_PATH=/models/depression-model
 ENV PORT=8501
 
 RUN echo '#!/bin/bash \n\n\
