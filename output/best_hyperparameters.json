@@ -1,0 +1,1 @@
+{"num_layers": 2, "units_0": 192, "dropout_0": 0.2, "learning_rate": 0.004311196053909165, "tuner/epochs": 5, "tuner/initial_epoch": 2, "tuner/bracket": 1, "tuner/round": 1, "units_1": 16, "dropout_1": 0.0, "tuner/trial_id": "0000"}

@@ -1,0 +1,372 @@
+feature {
+  name: "Academic Pressure"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Age"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "CGPA"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "City"
+  type: BYTES
+  domain: "City"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Degree"
+  type: BYTES
+  domain: "Degree"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Depression"
+  type: INT
+  bool_domain {
+  }
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Dietary Habits"
+  type: BYTES
+  domain: "Dietary Habits"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Family History of Mental Illness"
+  type: BYTES
+  domain: "Family History of Mental Illness"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Financial Stress"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Gender"
+  type: BYTES
+  domain: "Gender"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Have you ever had suicidal thoughts ?"
+  type: BYTES
+  domain: "Have you ever had suicidal thoughts ?"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Job Satisfaction"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Profession"
+  type: BYTES
+  domain: "Profession"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Sleep Duration"
+  type: BYTES
+  domain: "Sleep Duration"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Study Satisfaction"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Work Pressure"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "Work/Study Hours"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "id"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+string_domain {
+  name: "City"
+  value: "3.0"
+  value: "Agra"
+  value: "Ahmedabad"
+  value: "Bangalore"
+  value: "Bhopal"
+  value: "Chennai"
+  value: "City"
+  value: "Delhi"
+  value: "Faridabad"
+  value: "Gaurav"
+  value: "Ghaziabad"
+  value: "Harsh"
+  value: "Harsha"
+  value: "Hyderabad"
+  value: "Indore"
+  value: "Jaipur"
+  value: "Kalyan"
+  value: "Kanpur"
+  value: "Kolkata"
+  value: "Less Delhi"
+  value: "Lucknow"
+  value: "Ludhiana"
+  value: "M.Com"
+  value: "Meerut"
+  value: "Mihir"
+  value: "Mira"
+  value: "Mumbai"
+  value: "Nagpur"
+  value: "Nalini"
+  value: "Nalyan"
+  value: "Nashik"
+  value: "Patna"
+  value: "Pune"
+  value: "Rajkot"
+  value: "Rashi"
+  value: "Reyansh"
+  value: "Saanvi"
+  value: "Srinagar"
+  value: "Surat"
+  value: "Thane"
+  value: "Vaanya"
+  value: "Vadodara"
+  value: "Varanasi"
+  value: "Vasai-Virar"
+  value: "Visakhapatnam"
+  value: "Bhavna"
+  value: "Khaziabad"
+  value: "Kibara"
+  value: "Less than 5 Kalyan"
+  value: "M.Tech"
+  value: "ME"
+  value: "Nandini"
+}
+string_domain {
+  name: "Degree"
+  value: "B.Arch"
+  value: "B.Com"
+  value: "B.Ed"
+  value: "B.Pharm"
+  value: "B.Tech"
+  value: "BA"
+  value: "BBA"
+  value: "BCA"
+  value: "BE"
+  value: "BHM"
+  value: "BSc"
+  value: "Class 12"
+  value: "LLB"
+  value: "LLM"
+  value: "M.Com"
+  value: "M.Ed"
+  value: "M.Pharm"
+  value: "M.Tech"
+  value: "MA"
+  value: "MBA"
+  value: "MBBS"
+  value: "MCA"
+  value: "MD"
+  value: "ME"
+  value: "MHM"
+  value: "MSc"
+  value: "Others"
+  value: "PhD"
+}
+string_domain {
+  name: "Dietary Habits"
+  value: "Healthy"
+  value: "Moderate"
+  value: "Others"
+  value: "Unhealthy"
+}
+string_domain {
+  name: "Family History of Mental Illness"
+  value: "No"
+  value: "Yes"
+}
+string_domain {
+  name: "Gender"
+  value: "Female"
+  value: "Male"
+}
+string_domain {
+  name: "Have you ever had suicidal thoughts ?"
+  value: "No"
+  value: "Yes"
+}
+string_domain {
+  name: "Profession"
+  value: "Architect"
+  value: "Chef"
+  value: "Civil Engineer"
+  value: "Content Writer"
+  value: "Digital Marketer"
+  value: "Doctor"
+  value: "Educational Consultant"
+  value: "Entrepreneur"
+  value: "Lawyer"
+  value: "Pharmacist"
+  value: "Student"
+  value: "Teacher"
+  value: "Manager"
+  value: "UX/UI Designer"
+}
+string_domain {
+  name: "Sleep Duration"
+  value: "5-6 hours"
+  value: "7-8 hours"
+  value: "Less than 5 hours"
+  value: "More than 8 hours"
+  value: "Others"
+}
