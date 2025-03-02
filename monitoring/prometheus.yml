@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    monitor: "tf-serving-monitor"
+
+scrape_configs:
+  - job_name: "prometheus"
+    scrape_interval: 5s 
+    metrics_path: /monitoring/prometheus/metrics
+    scheme: https
+    static_configs:
+      - targets: ['oryshion-depression-pipeline-production.up.railway.app']
+    tls_config:
+      insecure_skip_verify: true
