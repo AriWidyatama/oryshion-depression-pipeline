@@ -1,7 +1,7 @@
-# Submission 1: Nama Proyek Anda
-Nama:
+# Submission 1: Prediksi Depresi
+Nama: I Putu Suka Ari Widyatama
 
-Username dicoding:
+Username dicoding: oryshion
 
 | | Deskripsi |
 | ----------- | ----------- |
